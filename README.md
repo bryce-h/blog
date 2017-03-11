@@ -1,25 +1,3 @@
-![](_assets/images/documentation/chalk-intro@2x.png)
-
-Chalk is a high quality, completely customizable, performant and 100% free blog template for Jekyll.
-
-## Overview
-
-Features:
-  - Dark and Light theme.
-  - Filter on tags.
-  - customizable pagination.
-  - Beautified link sharing in Facebook and other social media.
-  - Automatic time to read post indicator.
-  - Automatic RSS feed.
-  - About page.
-  - 404 page.
-  - SEO optimized.
-  - PageSpeed optimized.
-  - Cross browser support (supports all modern browsers).
-  - Media embed for videos.
-  - Enlarge images on click (like Medium).
-  - Support for local fonts
-
 Integrations
   - [Google Analytics](https://analytics.google.com/analytics/web/)
   - [Google Fonts](https://fonts.google.com/)
@@ -40,50 +18,10 @@ Used tools
   - [Retina.js](http://imulus.github.io/retinajs/)
   - [STACSS](http://stacss.nielsenramon.com/)
 
-## Usage
-
-### Installation
-
-If you haven't installed the following tools then go ahead and do so (make sure you have [Homebrew](http://brew.sh/) installed):
-
-    brew install ruby
-    brew install npm
-
-On windows, install Ruby and Node with the installers found here:
-
-  - [Ruby](https://rubyinstaller.org/)  
-  - [Node.js](https://nodejs.org/en/download/)
-
-Next setup your environment:
-
-    bin/setup
-
-### Development
-
-Run Jekyll:
+Run Jekyll: (Development)
 
     bundle exec jekyll serve
 
 ## Deploy to GitHub Pages
 
-Before you deploy, commit your changes to any working branch except the `gh-pages` one then run the following command:
-
     bin/deploy
-
-**Important note**: Chalk does not support the standard way of Jekyll hosting on GitHub Pages. You need to deploy your working branch with the `bin/deploy` script. This is because Chalk uses Jekyll plugins that aren't supported by GitHub pages.
-
-You can find more info on how to use the gh-pages branch and a custom domain [here](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
-
-[View this](https://github.com/nielsenramon/kickster#automated-deployment-with-circle-ci) for more info about automated deployment with Circle CI.
-
-## License
-
-MIT License
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/chalk/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
