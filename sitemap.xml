@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://bryce.life//tag/design/</loc>
+<lastmod>2017-03-11T02:13:02-08:00</lastmod>
+</url>
+<url>
+<loc>http://bryce.life//tag/jekyll/</loc>
+<lastmod>2017-03-11T02:13:02-08:00</lastmod>
+</url>
+<url>
+<loc>http://bryce.life//tag/web/</loc>
+<lastmod>2017-03-11T02:13:02-08:00</lastmod>
+</url>
+<url>
+<loc>http://bryce.life//posts/intro-post</loc>
+<lastmod>2017-03-10T00:00:00-08:00</lastmod>
+</url>
+<url>
+<loc>http://bryce.life//about</loc>
+</url>
+<url>
+<loc>http://bryce.life//</loc>
+</url>
+</urlset>
